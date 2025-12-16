@@ -1,0 +1,27 @@
+$u-primary: #ff5f52;
+$u-warning: #ffb347;
+$u-success: #4ade80;
+$u-info: #94a3b8;
+$u-text-color: #2c3e50;
+$u-border-radius: 18rpx;
+
+page {
+  font-family: "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
+  background-color: #f6f7fb;
+  color: $u-text-color;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(12px);
+  border-radius: 28rpx;
+  box-shadow: 0 12rpx 48rpx rgba(255, 95, 82, 0.18);
+}
+
+.section-title {
+  font-size: 32rpx;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 16rpx;
+}
+

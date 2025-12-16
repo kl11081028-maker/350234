@@ -1,0 +1,14 @@
+{
+  "name": "fanqie-timer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run serve",
+    "serve": "uniapp-cli serve",
+    "build": "uniapp-cli build"
+  },
+  "dependencies": {
+    "uview-ui": "^2.0.0"
+  }
+}
+

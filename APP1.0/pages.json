@@ -1,0 +1,29 @@
+{
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "番茄时钟",
+    "navigationBarBackgroundColor": "#FF5F52",
+    "backgroundColor": "#F8F8F8"
+  },
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/tasks/list",
+      "style": {
+        "navigationBarTitleText": "任务管理"
+      }
+    },
+    {
+      "path": "pages/tasks/detail",
+      "style": {
+        "navigationBarTitleText": "任务详情"
+      }
+    }
+  ]
+}
+

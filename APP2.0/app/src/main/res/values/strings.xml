@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Pomodoro</string>
+    <string name="nav_timer">计时</string>
+    <string name="nav_tasks">任务</string>
+    <string name="nav_history">历史</string>
+    <string name="nav_settings">设置</string>
+    <string name="action_start">开始</string>
+    <string name="action_pause">暂停</string>
+    <string name="action_reset">重置</string>
+    <string name="action_resume">继续</string>
+    <string name="state_idle">待机</string>
+    <string name="state_running">运行中</string>
+    <string name="state_paused">已暂停</string>
+    <string name="state_completed">已完成</string>
+    <string name="label_work">专注</string>
+    <string name="label_short_break">短休</string>
+    <string name="label_long_break">长休</string>
+</resources>
+

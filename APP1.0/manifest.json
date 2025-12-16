@@ -1,0 +1,47 @@
+{
+  "name": "番茄时钟",
+  "appid": "",
+  "description": "专注效率的番茄时钟小程序/应用",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "uniVersion": "3.0.0",
+  "transformPx": false,
+  "app-plus": {
+    "usingComponents": true,
+    "splashscreen": {
+      "alwaysShowBeforeRender": false,
+      "waiting": true,
+      "autoclose": true,
+      "delay": 0
+    },
+    "nvueCompiler": "uni-app",
+    "renderer": "auto",
+    "nvueStyleCompiler": "uni-app",
+    "optimization": {
+      "treeShaking": {
+        "enable": true
+      }
+    },
+    "modules": {},
+    "distribute": {
+      "android": {
+        "permissions": [
+          "<uses-permission android:name=\"android.permission.VIBRATE\" />"
+        ]
+      }
+    }
+  },
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false,
+      "minified": true
+    },
+    "usingComponents": true
+  },
+  "quickapp": {},
+  "h5": {
+    "title": "番茄时钟"
+  }
+}
+
